@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qa_guru_hw19"
+version = "1.0"
+description = "hw-19"
+authors = ["Alexey Telnov <signacher@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
